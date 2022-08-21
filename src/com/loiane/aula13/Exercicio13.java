@@ -17,7 +17,7 @@ public class Exercicio13 {
         System.out.println("Informe a sua altura: ");
         double altura = scan.nextDouble();
         System.out.println("Informe o seu sexo biologico M(MASCULINO) ou F(FEMININO): ");
-        String sexo = scan.next();
+        String sexo = scan.next().toUpperCase().trim();
 
         switch (sexo) {
             case "M":
