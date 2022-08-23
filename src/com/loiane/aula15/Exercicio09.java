@@ -9,19 +9,25 @@ public class Exercicio09 {
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Informe o primeiro numero: ");
-        double num1 = scan.nextDouble();
+        double a = scan.nextDouble();
         System.out.println("Informe o segundo numero: ");
-        double num2 = scan.nextDouble();
+        double b = scan.nextDouble();
         System.out.println("Informe o terceiro numero: ");
-        double num3 = scan.nextDouble();
+        double c = scan.nextDouble();
 
-          
-        if (num1<num2 && num1<num3 && num2<num3){
-            System.out.println(num3 + " < " + num2 + " < " + num1);
-        } else if (num2<num1 && num1<num2 && num3<num2){
-            System.out.println(num2 + " < " + num2 + " < " + num1);
-        } else  {
-            System.out.println("O maior numero informado foi: "+num3);
+
+        if (a > b && a > c && b > c) {
+            System.out.printf(a + " > " + b + " > " + c);
+        } else if (a > b && a > c && c > b) {
+            System.out.printf(a + " > " + c + " > " + b);
+        } else if (b > a && b > c && a > c) {
+            System.out.printf(b + " > " + a + " > " + c);
+        } else if (b > a && b > c && c > a) {
+            System.out.printf(b + " > " + c + " > " + a);
+        } else if (c > a && c > b && a > b) {
+            System.out.printf(c + " > " + a + " > " + b);
+        } else if (c > a && c > b && b > a) {
+            System.out.printf(c + " > " + b + " > " + a);
         }
 
     }
