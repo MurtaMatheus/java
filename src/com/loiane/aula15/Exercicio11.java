@@ -28,42 +28,25 @@ public class Exercicio11 {
 
         if (salarioAtual <= 280) {
             percentualAumento = 20;
-            valorAumento = salarioAtual * percentualAumento / 100;
-            novoSalario = salarioAtual + valorAumento;
 
-            System.out.println("O salário antes do reajuste R$" + salarioAtual);
-            System.out.println("O percentual de aumento aplicado " + percentualAumento + "%");
-            System.out.println("O valor do aumento R$" + valorAumento);
-            System.out.println("O novo salário, após o aumento R$" + novoSalario);
 
         } else if (salarioAtual > 280 && salarioAtual <= 700) {
             percentualAumento = 15;
-            valorAumento = salarioAtual * percentualAumento / 100;
-            novoSalario = salarioAtual + valorAumento;
 
-            System.out.println("O salário antes do reajuste R$" + salarioAtual);
-            System.out.println("O percentual de aumento aplicado " + percentualAumento + "%");
-            System.out.println("O valor do aumento R$" + valorAumento);
-            System.out.println("O novo salário, após o aumento R$" + novoSalario);
         } else if (salarioAtual > 700 && salarioAtual <= 1500) {
             percentualAumento = 10;
-            valorAumento = salarioAtual * percentualAumento / 100;
-            novoSalario = salarioAtual + valorAumento;
 
-            System.out.println("O salário antes do reajuste R$" + salarioAtual);
-            System.out.println("O percentual de aumento aplicado " + percentualAumento + "%");
-            System.out.println("O valor do aumento R$" + valorAumento);
-            System.out.println("O novo salário, após o aumento R$" + novoSalario);
         } else {
             percentualAumento = 5;
-            valorAumento = salarioAtual * percentualAumento / 100;
-            novoSalario = salarioAtual + valorAumento;
 
-            System.out.println("O salário antes do reajuste R$" + salarioAtual);
-            System.out.println("O percentual de aumento aplicado " + percentualAumento + "%");
-            System.out.println("O valor do aumento R$" + valorAumento);
-            System.out.println("O novo salário, após o aumento R$" + novoSalario);
         }
+        valorAumento = salarioAtual * percentualAumento / 100;
+        novoSalario = salarioAtual + valorAumento;
+
+        System.out.println("O salário antes do reajuste R$" + salarioAtual);
+        System.out.println("O percentual de aumento aplicado " + percentualAumento + "%");
+        System.out.println("O valor do aumento R$" + valorAumento);
+        System.out.println("O novo salário, após o aumento R$" + novoSalario);
     }
 
 }

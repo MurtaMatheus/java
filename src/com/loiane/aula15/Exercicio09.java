@@ -16,7 +16,7 @@ public class Exercicio09 {
         double c = scan.nextDouble();
 
 
-        if (a > b && a > c && b > c) {
+         if (a > b && a > c && b > c) {
             System.out.printf(a + " > " + b + " > " + c);
         } else if (a > b && a > c && c > b) {
             System.out.printf(a + " > " + c + " > " + b);
