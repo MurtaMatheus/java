@@ -18,7 +18,8 @@ public class Exercicio14 {
             }else {
                 impar++;
             }
-            System.out.println("Voce informou "+ par + " numeros pares e " + impar + "numeros impares.");
+
         }
+        System.out.println("Voce informou "+ par + " numeros pares e " + impar + " numeros impares.");
     }
 }
