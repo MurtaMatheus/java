@@ -7,7 +7,7 @@ public class Exercicio12 {
     public static void main(String[] args) {
         int[] vetorA = new int[10];
         for (int i = 0; i < vetorA.length; i++) {
-            vetorA[i] += vetorA[i] + i;
+            vetorA[i] = vetorA[i] + i;
             System.out.println(vetorA[i]);
         }
     }
